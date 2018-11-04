@@ -1,7 +1,7 @@
 # Python Video Stabilization <img src='https://s3.amazonaws.com/python-vidstab/logo/vidstab_logo_hex.png' width=125 align='right'/>
 One typical example is
 > ```diff
-This is the modificated version, address several bugs in the original codebase.
+> + This is the modificated version, modify several parameters in the original codebase for direct use.
 > ```
 def test_func():
     from vidstab.VidStab import VidStab 
