@@ -1,6 +1,7 @@
 # Python Video Stabilization <img src='https://s3.amazonaws.com/python-vidstab/logo/vidstab_logo_hex.png' width=125 align='right'/>
 This is the modificated version, address several bugs in the original codebase.
 One typical example is
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=One typical example is) `#c5f015`
 
 def test_func():
     from vidstab.VidStab import VidStab 
