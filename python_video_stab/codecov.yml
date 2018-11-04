@@ -1,0 +1,5 @@
+ignore:
+  - "docs"
+  - "test_*.py"
+  - "setup.py"
+  - "visual_inspection_tests.py"
