@@ -6,11 +6,10 @@
 >+    from vidstab.VidStab import VidStab 
 >+    stabilizer = VidStab()         
 >+    stabilizer.stabilize(input_path='../t.mp4', output_path='stable_video.avi')  
+>+ Note: 
+>+1. There are three options for the boundry processing.
+>+2. You can also choose several different features for keypoint extractions.
 > ```
-
-Note: 
-1. There are three options for the boundry processing.
-2. You can also choose several different features for keypoint extractions.
 
 
 [![Build Status](https://travis-ci.org/AdamSpannbauer/python_video_stab.svg?branch=master)](https://travis-ci.org/AdamSpannbauer/python_video_stab)
