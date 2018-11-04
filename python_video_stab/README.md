@@ -1,4 +1,16 @@
 # Python Video Stabilization <img src='https://s3.amazonaws.com/python-vidstab/logo/vidstab_logo_hex.png' width=125 align='right'/>
+This is the modificated version, address several bugs in the original codebase.
+One typical example is
+
+def test_func():
+    from vidstab.VidStab import VidStab 
+    stabilizer = VidStab()         
+    stabilizer.stabilize(input_path='../t.mp4', output_path='stable_video.avi')  
+
+Note: 
+1. There are three options for the boundry processing.
+2. You can also choose several different features for keypoint extractions.
+
 
 [![Build Status](https://travis-ci.org/AdamSpannbauer/python_video_stab.svg?branch=master)](https://travis-ci.org/AdamSpannbauer/python_video_stab)
 [![Coverage Status](https://img.shields.io/codecov/c/github/AdamSpannbauer/python_video_stab/master.svg)](https://codecov.io/github/AdamSpannbauer/python_video_stab?branch=master)
