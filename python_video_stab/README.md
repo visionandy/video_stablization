@@ -1,12 +1,12 @@
 # Python Video Stabilization <img src='https://s3.amazonaws.com/python-vidstab/logo/vidstab_logo_hex.png' width=125 align='right'/>
-One typical example is
 > ```diff
 > + This is the modificated version, modify several parameters in the original codebase for direct use.
+> + One typical example is
+>+ def test_func():
+>+    from vidstab.VidStab import VidStab 
+>+    stabilizer = VidStab()         
+>+    stabilizer.stabilize(input_path='../t.mp4', output_path='stable_video.avi')  
 > ```
-def test_func():
-    from vidstab.VidStab import VidStab 
-    stabilizer = VidStab()         
-    stabilizer.stabilize(input_path='../t.mp4', output_path='stable_video.avi')  
 
 Note: 
 1. There are three options for the boundry processing.
